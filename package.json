@@ -1,0 +1,24 @@
+{
+  "name": "cooyzee",
+  "version": "1.0.0",
+  "description": "Just some test code.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./Common/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cooyzee/Cooyzee.git"
+  },
+  "author": "cooyzee",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
+}
