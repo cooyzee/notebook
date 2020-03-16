@@ -2,6 +2,7 @@
 const ua = navigator.userAgent.toLowerCase()
 const isWechatEnv = ua.indexOf('micromessenger') > -1
 const isIosEnv = ua.indexOf('iphone') > -1 || ua.indexOf('ipad') > -1
+const isAndroid = (ua.indexOf('Mozilla/5.0') > -1 && ua.indexOf('Android ') > -1 && ua.indexOf('AppleWebKit') > -1 && ua.indexOf('Chrome') === -1)
 
 // 日期格式过滤
 const formatTime = date => {

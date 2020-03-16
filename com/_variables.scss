@@ -1,3 +1,33 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
+
+@mixin preset-margin($value) {
+  .ml-#{$value} {
+    margin-left: $value;
+  }
+  .mr-#{$value} {
+    margin-right: $value;
+  }
+  .mt-#{$value} {
+    margin-top: $value;
+  }
+  .mb-#{$value} {
+    margin-bottom: $value;
+  }
+}
+
+@mixin preset-padding($value) {
+  .pl-#{$value} {
+    padding-left: $value;
+  }
+  .pr-#{$value} {
+    padding-right: $value;
+  }
+  .pt-#{$value} {
+    padding-top: $value;
+  }
+  .pb-#{$value} {
+    padding-bottom: $value;
+  }
+}

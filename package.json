@@ -8,17 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:cooyzee/Cooyzee.git"
+    "url": "git@github.com:cooyzee/notebook.git"
   },
   "author": "cooyzee",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.11.0",
     "typescript": "^3.6.4"
   },
-  "dependencies": {}
+  "browserslist": [
+    ">= 1%",
+    "last 1 major version",
+    "not dead",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ]
 }
