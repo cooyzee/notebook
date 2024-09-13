@@ -1,7 +1,9 @@
 # Cooyzee
 Cooyzee's front working set.
 
-> Cause there ain't nobody, ain't nobody loves you like I love you.
+> commit type enum
+> 
+> feat, fix, style, perf, docs, refactor, ci, deploy, chore, revert, merge
 
 ### End
 * Learning.
